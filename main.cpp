@@ -478,6 +478,7 @@ int main(){
         else if(choice == 5){
             cout << "\t\tThank you for using our services" << endl;
             cout << "\t=============================================================" << endl;
+            system("pause");
         }
         else{
             cout << "Wrong choice\n" << endl;
