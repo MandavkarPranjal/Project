@@ -209,7 +209,6 @@ void hotel:: customer(){
                         Srooms += Itemprooms;
                         cout << setw(57) << right << ' ' << "You have successfully ordered " << Itemprooms << " rooms" << endl;
                         cout << setw(57) << right << ' ' << "Thank you for your order" << endl;
-                        Irooms += Itemprooms;
                         TotalPrice = TotalPrice + (Itemprooms * Prooms);
                         Trooms = Trooms - Itemprooms;
                     }
